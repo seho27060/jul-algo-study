@@ -47,9 +47,9 @@
 | 7월    |        |        |        |        |                       |        |
 | ------ | ------ | ------ | ------ | ------ | --------------------- | ------ |
 | 일     | 월     | 화     | 수     | 목     | 금                    | 토     |
-|        |        |        |        |        | **1**                 | **2**  |
-|        |        |        |        |        | [11909](jul-algo-study/0701/) |        |
-| **3**  | **4**  | **5**  | **6**  | **7**  | **8**                 | **9**  |
+|        |        |        |        |        | [**1**](https://github.com/seho27060/jul-algo-study/tree/master/0701)                 | **2**  |
+|        |        |        |        |        | [11909](https://www.acmicpc.net/problem/11909) |        |
+| **3**  | [**4**](https://github.com/seho27060/jul-algo-study/tree/master/0704)  | [**5**](https://github.com/seho27060/jul-algo-study/tree/master/0705)  | [**6**](https://github.com/seho27060/jul-algo-study/tree/master/0706)  | [**7**](https://github.com/seho27060/jul-algo-study/tree/master/0707)  | [**8**](https://github.com/seho27060/jul-algo-study/tree/master/0708)                 | **9**  |
 |        | 16401  | 4195   | 1007   | 17951  | 6091                  |        |
 | 1**0** | **11** | **12** | **13** | **14** | **15**                | 16     |
 |        | 2252   | 1300   | 1759   | 2176   | 19238                 |        |
