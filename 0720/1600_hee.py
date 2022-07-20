@@ -14,14 +14,8 @@ def func():
         cnt, num, x, y = Q.popleft()
 
         if x == W-1 and y == H-1:
-            ans = INF
-            for i in V[y][x]:
-                if i == -1:
-                    continue
-                else:
-                    ans = min(ans, i)
-            return ans
-
+            return V[y][x][num]
+            
         if num < K:
             for dx, dy in Horse:
                 nx = x + dx
