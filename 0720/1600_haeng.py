@@ -12,9 +12,8 @@ def horse():
     ST = deque()
     ST.append((0,0,0,0))
     visited = [[[0,0]]*W for _ in range(H)]
-    visited2 = [[0] * W for _ in range(H)]
     visited[0][0] =[1,0]
-    visited2[0][0] = 1
+    
     while ST:
         X,Y,cnt,jump = ST.popleft()
         if X == W-1 and Y==H-1:
