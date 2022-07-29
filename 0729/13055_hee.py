@@ -34,11 +34,11 @@ for k, n1, n2 in G:
         T[n1].append((k, n2))
         T[n2].append((k, n1))
 
-ST = deque([(INF, S)])
+Q = deque([(INF, S)])
 V = [False] * (N + 1)
 V[S] = True
-while ST:
-    c, n1 = ST.popleft()
+while Q:
+    c, n1 = Q.popleft()
 
     if n1 == E:
         print(c)
@@ -47,6 +47,6 @@ while ST:
     for cost, n2 in T[n1]:
         if not V[n2]:
             V[n2] = True
-            ST.append((min(cost, c), n2))
+            Q.append((min(cost, c), n2))
 else:
     print(0)
