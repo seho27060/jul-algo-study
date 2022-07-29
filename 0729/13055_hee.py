@@ -16,6 +16,7 @@ def union(a, b):
     b = find(b)
     if a != b:
         P[b] = a
+        return True
 
 N, M = map(int, input().split())
 S, E = map(int, input().split())
@@ -29,8 +30,7 @@ G.sort(reverse=True)
 P = [i for i in range(N + 1)]
 T = [[] for _ in range(N + 1)]
 for k, n1, n2 in G:
-    if find(n1) != find(n2):
-        union(n1, n2)
+    if union(n1, n2):
         T[n1].append((k, n2))
         T[n2].append((k, n1))
 
